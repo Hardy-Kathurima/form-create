@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Phone details</title>
+  </head>
+
+  <body>
+    <div class="container wrapper">
+      <header>Phone insurance Cover</header>
+      <form id="form" class="form-group" action="">
+        <label for="make">Make</label>
+        <select class="form-control" id="make" name="make" required>
+          <option value="">Please Select</option>
+          <option value="tecno">Tecno</option>
+          <option value="infinix"> Infinix</option>
+          <option value="samsung"> Samsung</option>
+          <option value="huawei"> Huawei</option>
+          <option value="nokia"> Nokia</option>
+        </select>
+        <label class="mt-3" for="model">Model</label>
+        <select class="form-control" id="model" name="model" required>
+          <option value="-1">Please Select</option>
+          <option value="16" data-pub="tecno">Tecno spark 5</option>
+          <option value="32" data-pub="tecno">Tecno Camon 12</option>
+          <option value="8" data-pub="tecno">Tecno F1</option>
+          <option value="16" data-pub="infinix">Hot 9</option>
+          <option value="32" data-pub="infinix">Hot 8</option>
+          <option value="16" data-pub="infinix">S5 8</option>
+          <option value="64" data-pub="samsung">Galaxy A10S</option>
+          <option value="64" data-pub="samsung">Galaxy S9 Plus</option>
+          <option value="32" data-pub="samsung">Galaxy Note 8</option>
+          <option value="16" data-pub="huawei">Y8p</option>
+          <option value="32" data-pub="huawei">P20 Lite</option>
+          <option value="8" data-pub="huawei">Y6p</option>
+          <option value="8" data-pub="nokia">2.3</option>
+          <option value="16" data-pub="nokia">C1</option>
+          <option value="32" data-pub="nokia">6.1 Plus</option>
+        </select>
+        <label for="storage">Storage</label>
+        <select class="form-control" id="storage" name="storage" required>
+          <option value="-1">Please Select</option>
+          <option value="8" data-pub="8">8GB</option>
+          <option value="32" data-pub="32">32GB</option>
+          <option value="16" data-pub="16">16GB</option>
+          <option value="64" data-pub="64">64GB</option>
+        </select>
+        <label for="policy">policy</label>
+        <select class="form-control policy" id="policy" name="policy" required>
+          <option value="-1">Please Select</option>
+          <option value="yearly">yearly</option>
+        </select>
+        <input
+          class="form-control mt-3 bg-dark text-white"
+          type="submit"
+          value="Get Quote"
+        />
+      </form>
+
+      <div class="card card-body">
+        <h5>Quote</h5>
+
+        <p>
+          Hapo ndo nimefika watu wangu.Leteni hizo suggestions. this is client
+          side bado kulink na db.
+        </p>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

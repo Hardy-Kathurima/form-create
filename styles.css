@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.wrapper {
+    margin: 0 auto;
+
+}
+
+.wrapper header {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+
+.wrapper form {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+
+
+}
+
+
+
+.card {
+    display: none;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: black;
+    color: aqua;
+}
+
+.card h5 {
+
+    color: white;
+}
+
+.card ul li {
+    display: inline-block;
+    flex-direction: row;
+    padding: 10px;
+}
